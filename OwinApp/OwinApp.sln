@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinApp", "OwinApp\OwinApp.csproj", "{BCF9E6B9-EE27-47CF-A092-E74FED6C45D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfhostSample", "OwinSelfhostSample\OwinSelfhostSample.csproj", "{729FBDAF-FD57-45E5-9665-C17610C1E511}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApi", "ServerApi\ServerApi.csproj", "{1894D2FE-DED6-4727-8194-821A901DDEB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{BCF9E6B9-EE27-47CF-A092-E74FED6C45D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCF9E6B9-EE27-47CF-A092-E74FED6C45D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCF9E6B9-EE27-47CF-A092-E74FED6C45D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729FBDAF-FD57-45E5-9665-C17610C1E511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729FBDAF-FD57-45E5-9665-C17610C1E511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729FBDAF-FD57-45E5-9665-C17610C1E511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729FBDAF-FD57-45E5-9665-C17610C1E511}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1894D2FE-DED6-4727-8194-821A901DDEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1894D2FE-DED6-4727-8194-821A901DDEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1894D2FE-DED6-4727-8194-821A901DDEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1894D2FE-DED6-4727-8194-821A901DDEB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
