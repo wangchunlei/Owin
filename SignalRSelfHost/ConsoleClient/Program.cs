@@ -25,7 +25,7 @@ namespace ConsoleClient
             hubConnection.Headers.Add("UserID", user);
             //hubConnection.AddClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate.CreateFromCertFile(""));
 
-            var hubProxy = hubConnection.CreateHubProxy("MyHub");
+            var hubProxy = hubConnection.CreateHubProxy("NotifierServer");
             hubProxy.On<string>("Received", message =>
             {
                 if (!string.IsNullOrEmpty(message))
