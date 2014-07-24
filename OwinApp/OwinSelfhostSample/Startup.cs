@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Dispatcher;
+using OwinSelfhostSample.Extensions;
 
 namespace OwinSelfhostSample
 {
@@ -24,6 +25,7 @@ namespace OwinSelfhostSample
                 defaults: new { id = RouteParameter.Optional }
                 );
 
+            appBuilder.UseAuthentication();
             appBuilder.UseWebApi(config);
         }
     }
