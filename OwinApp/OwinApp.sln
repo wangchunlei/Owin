@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30324.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinApp", "OwinApp\OwinApp.csproj", "{BCF9E6B9-EE27-47CF-A092-E74FED6C45D1}"
 EndProject
@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinSelfhostSample", "OwinS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerApi", "ServerApi\ServerApi.csproj", "{1894D2FE-DED6-4727-8194-821A901DDEB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OAuth2OwinAuthorizationServer", "OAuth2OwinAuthorizationServer\OAuth2OwinAuthorizationServer.csproj", "{DC5DD299-9008-4AE4-8F31-6142CBD8C90B}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinClientApp", "OwinClientApp\OwinClientApp.csproj", "{85E25F1A-4BA8-4C72-9386-262B95CD39A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinOAuth2AuthorizationServer", "OwinAuth2AuthorizationServer\OwinOAuth2AuthorizationServer.csproj", "{5906FF75-D8A9-41DE-B9A1-ADEFBEE3ED4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{1894D2FE-DED6-4727-8194-821A901DDEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1894D2FE-DED6-4727-8194-821A901DDEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1894D2FE-DED6-4727-8194-821A901DDEB5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC5DD299-9008-4AE4-8F31-6142CBD8C90B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC5DD299-9008-4AE4-8F31-6142CBD8C90B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC5DD299-9008-4AE4-8F31-6142CBD8C90B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC5DD299-9008-4AE4-8F31-6142CBD8C90B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{85E25F1A-4BA8-4C72-9386-262B95CD39A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{85E25F1A-4BA8-4C72-9386-262B95CD39A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85E25F1A-4BA8-4C72-9386-262B95CD39A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85E25F1A-4BA8-4C72-9386-262B95CD39A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5906FF75-D8A9-41DE-B9A1-ADEFBEE3ED4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5906FF75-D8A9-41DE-B9A1-ADEFBEE3ED4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5906FF75-D8A9-41DE-B9A1-ADEFBEE3ED4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5906FF75-D8A9-41DE-B9A1-ADEFBEE3ED4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
